@@ -360,7 +360,7 @@
             <con:mediaType>application/json</con:mediaType>
             <con:params/>
           </con:representation>
-          <con:request name="Request 1" id="23660513-557a-4cb7-ab0d-4d5201b288ba" mediaType="application/json" postQueryString="false">
+          <con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:upd="http://digisurveyapi.clidiem.com/api/Account/updateuserpassword">upd:Response</con:element></con:representation><con:request name="Request 1" id="23660513-557a-4cb7-ab0d-4d5201b288ba" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
             </con:settings>
@@ -1052,7 +1052,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="productid" path="api/Account/getuserpermissions/{roleid}/{parentroleid}/{packageid}/{productid}" id="55ea3f0d-3248-4ff0-bfb2-9dab38c19dc2">
+      <con:resource name="productid" path="/getuserpermissions/{roleid}/{parentroleid}/{packageid}/{productid}" id="55ea3f0d-3248-4ff0-bfb2-9dab38c19dc2">
         <con:settings/>
         <con:parameters>
           
@@ -1091,7 +1091,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="activatecompanyuseraccount" path="api/Account/activatecompanyuseraccount" id="a2ecc11c-1cad-439d-b99a-cea3a0f3ab81">
+      <con:resource name="activatecompanyuseraccount" path="/activatecompanyuseraccount" id="a2ecc11c-1cad-439d-b99a-cea3a0f3ab81">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="165768c1-7f7a-4666-b239-7ffa9d8befe4" method="POST">
@@ -1129,7 +1129,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="resendcandidateverificationcode" path="api/Account/resendcandidateverificationcode" id="7502b39d-5111-478a-b0b0-280ed78f1040">
+      <con:resource name="resendcandidateverificationcode" path="/resendcandidateverificationcode" id="7502b39d-5111-478a-b0b0-280ed78f1040">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="e944358e-c62d-4ed5-9505-960fb8467412" method="POST">
@@ -1145,7 +1145,7 @@ FEIN
             <con:params/>
             <con:element xmlns:res="http://digisurveyapi.clidiem.com/api/account/api/Account/resendcandidateverificationcode">res:Fault</con:element>
           </con:representation>
-          <con:request name="Request 1" id="00f9f8c0-dc23-41bf-8ca0-7a35ccaad1f3" mediaType="application/json" postQueryString="false">
+          <con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:res="http://digisurveyapi.clidiem.com/api/account/api/Account/resendcandidateverificationcode">res:Response</con:element></con:representation><con:request name="Request 1" id="00f9f8c0-dc23-41bf-8ca0-7a35ccaad1f3" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
             </con:settings>
@@ -1166,7 +1166,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="resendcompanyverificationcode" path="api/Account/resendcompanyverificationcode" id="63a67e3b-9403-45a4-b43b-625dbfe39ea4">
+      <con:resource name="resendcompanyverificationcode" path="/resendcompanyverificationcode" id="63a67e3b-9403-45a4-b43b-625dbfe39ea4">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="08e2eeda-8678-46b6-81a8-8b76bd680bb0" method="POST">
@@ -1182,7 +1182,7 @@ FEIN
             <con:mediaType>application/json</con:mediaType>
             <con:params/>
           </con:representation>
-          <con:request name="Request 1" id="b4e51eb2-df58-4522-b9e1-a3d89b84e05a" mediaType="application/json" postQueryString="false">
+          <con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:res="http://digisurveyapi.clidiem.com/api/account/api/Account/resendcompanyverificationcode">res:Response</con:element></con:representation><con:request name="Request 1" id="b4e51eb2-df58-4522-b9e1-a3d89b84e05a" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
             </con:settings>
@@ -1202,7 +1202,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="getcompanyviewdata" path="api/Account/getcompanyviewdata" id="928d19bc-1902-4464-9846-79f5bb895622">
+      <con:resource name="getcompanyviewdata" path="/getcompanyviewdata" id="928d19bc-1902-4464-9846-79f5bb895622">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="8fcc59ca-83b4-482e-8cc3-0e26921f033f" method="POST">
@@ -1236,7 +1236,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="submitcontactusdetails" path="api/Account/submitcontactusdetails" id="7eaa25db-84c4-4d7d-a077-7a2a4bbfd900">
+      <con:resource name="submitcontactusdetails" path="/submitcontactusdetails" id="7eaa25db-84c4-4d7d-a077-7a2a4bbfd900">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="98e01da1-c242-4fee-a219-18fc12a32c58" method="POST">
@@ -1277,7 +1277,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="submitFeedbackDetails" path="api/Account/submitFeedbackDetails" id="efdaaa03-c6a7-40f2-a5d6-f9eaabc3ac75">
+      <con:resource name="submitFeedbackDetails" path="/submitFeedbackDetails" id="efdaaa03-c6a7-40f2-a5d6-f9eaabc3ac75">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="9b7b93b2-563b-4238-8e0e-dfc02365909e" method="POST">
@@ -1361,7 +1361,7 @@ FEIN
           </con:representation>
           <con:representation type="FAULT">
             <con:mediaType>application/json; charset=utf-8</con:mediaType>
-            <con:status>404 415</con:status>
+            <con:status>404 415 401</con:status>
             <con:params/>
             <con:element xmlns:get="http://digisurveyapi.clidiem.com/api/account/api/Account/getwalletrecenttransactions">get:Fault</con:element>
           </con:representation>
@@ -1384,7 +1384,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="getuserpaymentdetailstopay" path="api/Account/getuserpaymentdetailstopay" id="db2fd657-cf89-4803-b2fc-01ff39280b72">
+      <con:resource name="getuserpaymentdetailstopay" path="/getuserpaymentdetailstopay" id="db2fd657-cf89-4803-b2fc-01ff39280b72">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="5f064a7c-278c-482e-a300-4bfbdd4c3879" method="POST">
@@ -1422,7 +1422,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="userloginid 2" path="api/Account/getuserpaymentdetailstopay/{userloginid }" id="5ab87ae9-4f5f-4e40-b652-35ed76448dab">
+      <con:resource name="userloginid 2" path="/getuserpaymentdetailstopay/{userloginid }" id="5ab87ae9-4f5f-4e40-b652-35ed76448dab">
         <con:settings/>
         <con:parameters>
           
@@ -1453,7 +1453,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="submitpayment" path="api/Account/submitpayment" id="7b9c7797-89f9-4040-a7d4-f043ac27b1ff">
+      <con:resource name="submitpayment" path="/submitpayment" id="7b9c7797-89f9-4040-a7d4-f043ac27b1ff">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="6723f655-7370-4cbd-8ea4-fb9618ac422d" method="POST">
@@ -1514,7 +1514,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="referralcampaign" path="api/Account/referralcampaign" id="f7bbc2f4-c768-400e-a3d2-be256914059c">
+      <con:resource name="referralcampaign" path="/referralcampaign" id="f7bbc2f4-c768-400e-a3d2-be256914059c">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="989a766e-4cbf-4628-ab68-3f2ccf11f4f2" method="POST">
@@ -1550,7 +1550,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="GetReferrals" path="api/Account/GetReferrals" id="0102d2f3-3ac7-4dc7-a7d5-a45be15db90a">
+      <con:resource name="GetReferrals" path="/GetReferrals" id="0102d2f3-3ac7-4dc7-a7d5-a45be15db90a">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="bdc90538-f94b-44cc-9a15-25592fd7359c" method="POST">
@@ -1585,7 +1585,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="registrationusingfb" path="api/Account/registrationusingfb" id="53fb0159-bd9e-42e9-a413-6ca5f4539c2c">
+      <con:resource name="registrationusingfb" path="/registrationusingfb" id="53fb0159-bd9e-42e9-a413-6ca5f4539c2c">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="f029e455-4d23-4f54-9761-c04df2776624" method="POST">
@@ -1632,7 +1632,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="submitpaymentbywepay" path="api/Account/submitpaymentbywepay" id="87252808-3dd6-4bf2-b496-aa90a28ff9fc">
+      <con:resource name="submitpaymentbywepay" path="/submitpaymentbywepay" id="87252808-3dd6-4bf2-b496-aa90a28ff9fc">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="22db0996-5a10-4112-8b62-816d43212e79" method="POST">
@@ -1648,7 +1648,7 @@ FEIN
             <con:mediaType>application/json</con:mediaType>
             <con:params/>
           </con:representation>
-          <con:representation type="REQUEST"><con:mediaType>text/xml</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/xml; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>Error</con:element></con:representation><con:request name="Request 1" id="f4bce0df-87d2-4d5f-b283-78223afd107f" mediaType="application/json" postQueryString="false">
+          <con:representation type="REQUEST"><con:mediaType>text/xml</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/xml; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>Error</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:sub="http://digisurveyapi.clidiem.com/api/account/api/Account/submitpaymentbywepay">sub:Response</con:element></con:representation><con:request name="Request 1" id="f4bce0df-87d2-4d5f-b283-78223afd107f" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
             </con:settings>
@@ -1677,7 +1677,7 @@ FEIN
           </con:request>
         </con:method>
       </con:resource>
-      <con:resource name="updatewepaypaymentstatus" path="api/Account/updatewepaypaymentstatus" id="102aa972-14e4-4704-9554-6882dfd85e3a">
+      <con:resource name="updatewepaypaymentstatus" path="/updatewepaypaymentstatus" id="102aa972-14e4-4704-9554-6882dfd85e3a">
         <con:settings/>
         <con:parameters/>
         <con:method name="Method 1" id="a04df003-922b-405a-96ee-bcba6258de8a" method="POST">
@@ -1693,7 +1693,7 @@ FEIN
             <con:mediaType>application/json</con:mediaType>
             <con:params/>
           </con:representation>
-          <con:request name="Request 1" id="9398a003-5f56-47a8-9fef-329356506253" mediaType="application/json" postQueryString="false">
+          <con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:upd="http://digisurveyapi.clidiem.com/api/account/api/Account/updatewepaypaymentstatus">upd:Response</con:element></con:representation><con:request name="Request 1" id="9398a003-5f56-47a8-9fef-329356506253" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
             </con:settings>
@@ -4255,7 +4255,7 @@ if (actualvalue=null) {
     <con:reportParameters/>
   </con:testSuite>
   <con:savedRecentRuns>1</con:savedRecentRuns>
-  <con:testSuite id="bf8abfab-e56c-47c4-8ecf-fc28b1979bda" name="Setup"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="27450e86-85c4-4f0d-bd74-050870b926a7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Tokengeneration" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Token Request" id="4814c616-0762-45bd-9e05-b961ccd83283"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/token" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Token Request" id="cf240af2-7e21-4d5b-ac1e-28c432c787f6" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#Endpoint}</con:endpoint><con:request><![CDATA[username=lavanya%40clidiem.com&password=Sidharth%40123&grant_type=password&ipaddress=68.184.113.95&latitude=33.8633&longitude=-84.4984&city=Smyrna&state=Georgia&country=United+States&browser=Chrome&zipcode=30080&usertype=applicationuser&isfbuser=false]]></con:request><con:originalUri>http://digisurveyapi.clidiem.com/token</con:originalUri><con:assertion type="GroovyScriptAssertion" id="d18da439-dc53-40c0-a390-415c7e2df667" name="Script Assertion"><con:configuration><scriptText>import org.apache.commons.lang.RandomStringUtils
+  <con:testSuite id="bf8abfab-e56c-47c4-8ecf-fc28b1979bda" name="Setup"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="27450e86-85c4-4f0d-bd74-050870b926a7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Tokengeneration" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Token Request" id="4814c616-0762-45bd-9e05-b961ccd83283"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/token" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Token Request" id="cf240af2-7e21-4d5b-ac1e-28c432c787f6" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#Endpoint}</con:endpoint><con:request><![CDATA[username=lavanya%40clidiem.com&password=Test%40123&grant_type=password&ipaddress=68.184.113.95&latitude=33.8633&longitude=-84.4984&city=Smyrna&state=Georgia&country=United+States&browser=Chrome&zipcode=30080&usertype=applicationuser&isfbuser=false]]></con:request><con:originalUri>http://digisurveyapi.clidiem.com/token</con:originalUri><con:assertion type="GroovyScriptAssertion" id="d18da439-dc53-40c0-a390-415c7e2df667" name="Script Assertion"><con:configuration><scriptText>import org.apache.commons.lang.RandomStringUtils
 import com.eviware.soapui.support.types.StringToStringMap
 import groovy.json.JsonSlurper
 
@@ -4319,6 +4319,16 @@ if (UserId==null) {
 	proj.setPropertyValue("UserId",UserId)
 	}
 
+EncryptedCompanyId = parsedResponse.EncryptedCompanyId
+EncryptedCompanyId
+
+if (EncryptedCompanyId==null) {
+	tc.fail("FAIL : did not find access_token.check the service")
+} else {
+	tc.setPropertyValue("EncryptedCompanyId",EncryptedCompanyId)
+	proj.setPropertyValue("EncryptedCompanyId",EncryptedCompanyId)
+	}
+
 /*
  * "access_token": "ENkHmlDWd2XlsJ2Ule4j2vci50oZ3gpIoOdtyVVEY5_QvNpows7Xsmt_TgYurg46wMiVjsKBXUlO1W6k31uihDBRdE5tqqBu5YNSealfUOHHWyqmD1bmctGPoF3nzVwBawv7VJvxzPqIGggrzkiUzgPaJ3cEt3gZ2bvj2OLwsJdwFQqZo5VHVJYdiZPIwevpOJ5arweo8DMQLR5CX2OU3zn8fU9znAFumy-2RfLzKyYmz__3wt7z7KU2SULcmDVZ7zPhmIujlftXvxQkGYRt1DewsMP96RZf6HFx9xmsEGuGVzq60D1wwlG-NoQDNOuxLkK4GnyAjg6XY-gM3VFnBVJk4jkQ-w48lRUkqQv1RtViVaSQdU2PLn9gDRoCwFe73dz9hbDYL2PM9nMji8vF5fEi_UwKHEUC9wmOz1pQBO6h3ywhuHwghv_Sbfrvn5SWGliWpbJn404WaHg0OZMv_PM-gX13Jw_bv-i4Dv-qmyYz8SpUtNnatdVV6D4DaOiouY1zcy0hTVjvNYxmKEmOGIc2sfysa8DF0BcQs-Ulm834SDaJ3y282ynJfIouvcQTHyiZF369FIwuMrX_Ao3MQIOqED0beX_4yzqApuf2zdtnUWsDnvp0vGZzDyvy5ojmRKB5TPbdpYOq6MqfcmH--s3jX0oMYxr7qoxvEUulIRXkeEFZEMRMPMh3reK63lAq6dqKDjs75mLDBSu2sYrJxmGpO-vDKdeVtMrpzZXBVv2AyRKH4Ll-NOpBIWA8NXT9",
    "token_type": "bearer",
@@ -4351,7 +4361,7 @@ if (UserId==null) {
    ".issued": "Thu, 12 Apr 2018 15:00:53 GMT",
    ".expires": "Thu, 12 Apr 2018 17:00:53 GMT"
 */
-</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>Token</con:name><con:value>Bearer Vh_Ymogt2uJcnaR8zUZt3EXnQRAv43MMEICTnqEBYyM6Zo1O4MkcrRpW4oKtUpTvX1KPr4neEM7TrQIjAQ3oLz4RTblQEoSg3dDUPkgs_HzzmNEvt5bej9w3buaiahbXJAJ1AvrhD7wjjBW2NyuGF6q5xGVZMHGn9kuaR0L7ktb-fX_fhb8ZY7K4W6usdqy69h3dp3s-D_WN-l8lp7ik85QYni5e3Deb1vyhZnPkzj97KskyYkisU1ksTw4fG23C2Nh7yFqOsqcb_ONxM1rONIEyKOvX73clJj-0720Ym3yo-_53ye3D2JwbPwUQQle5pTc1YHX0NUg5SCzBXBglandUZ2sBLhlfWlo4dIU0uTWEAu1nOorWg5ephoiQW57PreimeNJrpO7qynn6ejMqgUgGrwHrsSdm5RDm2MUBn9RlvRCTeZHgaCJMirNasqi9VXsTuUGlFKLCRNr0fzs9Jb0ZezSBPExvfCZ7oxA1L9bYZi-qUZ1zNnjNY11SO1k18z-norx9XzDwy2a2USi1gHJJ3ToZPtXSbPln3yXL375ID7eIZ76k_A70zmCxGvKgyHuKML-W9wso85jOIiz2r_mgDZMGi9e3OTC7cGbShse1HRB6YBpQiFjYiP8QEaJMV1A699Uup3qUQtdzb--MECx7nMEe9ehb8iEA7MRQKajCwNZ7aZaXC2rhOiRB0uw9jY72MJeeugos8k-jPBA6wKKRCdBFKIBSDTxj64wa__3nT94W_kHJE1HoByIiVREV1gIFXHHXC4FJTdqnEAF5_A</con:value></con:property><con:property><con:name>EncryptedUserId</con:name><con:value>0+T2iLXE75v1gHMcLJeA0g==</con:value></con:property><con:property><con:name>EncryptedLoginID</con:name><con:value>Fa4SDTmM//9wP2D/fO/0kQ==</con:value></con:property><con:property><con:name>CompanyId</con:name><con:value>8</con:value></con:property><con:property><con:name>UserId</con:name><con:value>8</con:value></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:testSuite id="cf5c5112-b87f-46f1-8699-af223e2f119f" name="Account-wallettransactions"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="61513409-dcd6-4789-8945-4183793a6294" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="wallet transacations" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="getwalletrecenttransactions" id="eb38337d-673a-4563-ae75-2719b5c1e407"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/getwalletrecenttransactions" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="getwalletrecenttransactions" id="1fe02ccd-b6d8-4712-a33a-9c50b2a16480" mediaType="application/json" postQueryString="false">
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>Token</con:name><con:value>Bearer iRw8oL0ybBXcJ0P4YjBTiIONlWQnXenBj8QGuJyRjnxe_2gX8RRF8REvNRZHVTWEAdQ4RN5iGDCAVNpFgNHahRT71PAlOTLsdzhvm-u-qgBcVgxtzys8g3hmUDxdQn2Lo96uCojNsr_ORi6UE1ODKPjcEYUaWtv2BzReJn-uEXTPROWpT_qpeBYjbgMYF0j_dv_I8Rap51MPt44vnrf08xctjB-KACRIUALabhOlUA3H4fScKQ2UKnCJgh6sCCQ8X6WBkTBsU4ICZOB8DcyqLuT3O81xai6b22NDXc7jG2exGGHX69l2okwUazYekxuBHp8TTk5GPzswNyOGYcxvUkfvOEqYFsOXV8_pwzJNxmiSEWXmeeelfm-AXhs9THqdFgVGT6tWPR3wU7dT1y9On_Eu-Qc4wGhvcZlI71iNS5E57pKy2eHOS2GB933yyo_aQZh7Y0VUTMk3ubYOczvMAQOu8PAIjE5Ta0_NiF3WQFlQwx9bADIfRZUzbVLRdolk7ORJYmzZgEH8qj3ocNBp-y8Y9uwrazHOd1wT9DGrtfzou4KeAYVGdz90ZjmDGAGv3JouP6sipFQHtn7FOXizxhrsS7qKWklKpTzc11JdWxNGbl0-fauKRwWxG7f9FpM-SNKu_b_ssJzst29qfKYIlM0bH_73mCYJ3USryhnUxFLoJx6ajcu89wzZxyjLrS59xKPtQB-qjXWj7budIl4aqsBMwrN4Wt1iSOY14dnB8DYw8kDtr8gOcsSAYLq5xqqU</con:value></con:property><con:property><con:name>EncryptedUserId</con:name><con:value>0+T2iLXE75v1gHMcLJeA0g==</con:value></con:property><con:property><con:name>EncryptedLoginID</con:name><con:value>Fa4SDTmM//9wP2D/fO/0kQ==</con:value></con:property><con:property><con:name>CompanyId</con:name><con:value>8</con:value></con:property><con:property><con:name>UserId</con:name><con:value>8</con:value></con:property><con:property><con:name>EncryptedCompanyId</con:name><con:value>0+T2iLXE75v1gHMcLJeA0g==</con:value></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:testSuite id="cf5c5112-b87f-46f1-8699-af223e2f119f" name="Account-wallettransactions"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="61513409-dcd6-4789-8945-4183793a6294" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="wallet transacations" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="getwalletrecenttransactions" id="eb38337d-673a-4563-ae75-2719b5c1e407"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/getwalletrecenttransactions" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="getwalletrecenttransactions" id="1fe02ccd-b6d8-4712-a33a-9c50b2a16480" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Token}" xmlns="http://eviware.com/soapui/config"/></con:setting>
             </con:settings>
@@ -4364,24 +4374,23 @@ if (UserId==null) {
             </con:credentials>
             <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
             <con:jmsPropertyConfig/><con:parameters/>
-          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="submitpaymentbywepay" id="b83cad84-9232-4ebc-9fd7-32ab694f1c15"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/api/Account/submitpaymentbywepay" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="submitpaymentbywepay" id="f4bce0df-87d2-4d5f-b283-78223afd107f" mediaType="application/json" postQueryString="false">
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="submitpaymentbywepay" id="b83cad84-9232-4ebc-9fd7-32ab694f1c15"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/submitpaymentbywepay" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="submitpaymentbywepay" id="f4bce0df-87d2-4d5f-b283-78223afd107f" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
             </con:settings>
-            <con:endpoint>http://digisurveyapi.clidiem.com</con:endpoint>
+            <con:endpoint>${#Project#Endpoint}</con:endpoint>
             <con:request>{
-	"InsertPaymentByWePay":"",
-	"SubmitZipCode":"",
-	"SubmitCountry":"",
-	"SubmitCity":"",
-	"SubmitState":"",
-	"CompanyId":"",
-	"PackageId":"",
-	"UserId":"",
-	"IPAddress":"",
-	"Browser":"",
-	"Latitude":"",
-	"Longitude":""
+	"Amount": "10",
+     "CompanyId": "${#Project#EncryptedCompanyId}",
+    "PackageId": "1",
+    "UserId": "${#Project#EncryptedUserId}",
+     "IPAddress": "68.184.113.95",
+    "Browser": "Chrome",
+"Latitude": "33.8633",
+"Longitude": "-84.4984",
+"SubmitCity": "Smyrna",
+"SubmitState": "Georgia",
+"SubmitCountry": "United States"
 }</con:request>
             <con:originalUri>http://digisurveyapi.clidiem.com/api/account/api/Account/submitpaymentbywepay</con:originalUri>
             <con:credentials>
@@ -4390,7 +4399,7 @@ if (UserId==null) {
             </con:credentials>
             <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
             <con:jmsPropertyConfig/><con:parameters/>
-          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="updatewepaypaymentstatus" id="aa17f293-881f-46f6-bb93-7c34821f6c8b"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/api/Account/updatewepaypaymentstatus" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="updatewepaypaymentstatus" id="9398a003-5f56-47a8-9fef-329356506253" mediaType="application/json" postQueryString="false">
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="updatewepaypaymentstatus" id="aa17f293-881f-46f6-bb93-7c34821f6c8b"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/updatewepaypaymentstatus" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="updatewepaypaymentstatus" id="9398a003-5f56-47a8-9fef-329356506253" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
             </con:settings>
@@ -4418,7 +4427,7 @@ if (UserId==null) {
             </con:settings>
             <con:endpoint>${#Project#Endpoint}</con:endpoint>
             <con:request>{
-	"emailId":"${#Project#EmailId}"
+	"EmailId":"lavanya14.mtech@gmail.com",
 }</con:request>
             <con:originalUri>http://digisurveyapi.clidiem.com/api/account/checkcandidateemailidexistsornot</con:originalUri>
             <con:credentials>
@@ -4448,13 +4457,12 @@ if (UserId==null) {
             <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
             <con:jmsPropertyConfig/><con:parameters/>
             <con:parameterOrder/>
-          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="resendcandidateverificationcode" id="663e1468-6a17-439a-940d-1f8c37353158"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/api/Account/resendcandidateverificationcode" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="resendcandidateverificationcode" id="00f9f8c0-dc23-41bf-8ca0-7a35ccaad1f3" mediaType="application/json" postQueryString="false">
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="resendcandidateverificationcode" id="663e1468-6a17-439a-940d-1f8c37353158"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/resendcandidateverificationcode" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="resendcandidateverificationcode" id="00f9f8c0-dc23-41bf-8ca0-7a35ccaad1f3" mediaType="application/json" postQueryString="false">
             <con:settings>
               <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
             </con:settings>
-            <con:endpoint>http://digisurveyapi.clidiem.com</con:endpoint>
+            <con:endpoint>${#Project#Endpoint}</con:endpoint>
             <con:request>{    
-	"KeyValue":"",
 	"EmailId": "lavanya14.mtech@gmail.com",
       "WebProjectId": "2"
 }</con:request>
@@ -4466,7 +4474,166 @@ if (UserId==null) {
             <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
             <con:jmsPropertyConfig/><con:parameters/>
             <con:parameterOrder/>
-          </con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>Endpoint</con:name><con:value>http://digisurveyapi.clidiem.com</con:value></con:property><con:property><con:name>Token</con:name><con:value>Bearer Vh_Ymogt2uJcnaR8zUZt3EXnQRAv43MMEICTnqEBYyM6Zo1O4MkcrRpW4oKtUpTvX1KPr4neEM7TrQIjAQ3oLz4RTblQEoSg3dDUPkgs_HzzmNEvt5bej9w3buaiahbXJAJ1AvrhD7wjjBW2NyuGF6q5xGVZMHGn9kuaR0L7ktb-fX_fhb8ZY7K4W6usdqy69h3dp3s-D_WN-l8lp7ik85QYni5e3Deb1vyhZnPkzj97KskyYkisU1ksTw4fG23C2Nh7yFqOsqcb_ONxM1rONIEyKOvX73clJj-0720Ym3yo-_53ye3D2JwbPwUQQle5pTc1YHX0NUg5SCzBXBglandUZ2sBLhlfWlo4dIU0uTWEAu1nOorWg5ephoiQW57PreimeNJrpO7qynn6ejMqgUgGrwHrsSdm5RDm2MUBn9RlvRCTeZHgaCJMirNasqi9VXsTuUGlFKLCRNr0fzs9Jb0ZezSBPExvfCZ7oxA1L9bYZi-qUZ1zNnjNY11SO1k18z-norx9XzDwy2a2USi1gHJJ3ToZPtXSbPln3yXL375ID7eIZ76k_A70zmCxGvKgyHuKML-W9wso85jOIiz2r_mgDZMGi9e3OTC7cGbShse1HRB6YBpQiFjYiP8QEaJMV1A699Uup3qUQtdzb--MECx7nMEe9ehb8iEA7MRQKajCwNZ7aZaXC2rhOiRB0uw9jY72MJeeugos8k-jPBA6wKKRCdBFKIBSDTxj64wa__3nT94W_kHJE1HoByIiVREV1gIFXHHXC4FJTdqnEAF5_A</con:value></con:property><con:property><con:name>EncryptedUserId</con:name><con:value>0+T2iLXE75v1gHMcLJeA0g==</con:value></con:property><con:property><con:name>EncryptedLoginID</con:name><con:value>Fa4SDTmM//9wP2D/fO/0kQ==</con:value></con:property><con:property><con:name>CompanyId</con:name><con:value>8</con:value></con:property><con:property><con:name>UserId</con:name><con:value>8</con:value></con:property></con:properties>
+          </con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="af69e918-78a0-43ec-a24d-69115e8c28cb" name="Account-Company Registration"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="c5841c40-a480-45f3-a6e0-896ed5fa9b68" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Company Registration" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="checkcompanyemailidexistsornot" id="37c54fb1-b150-4e9e-9e7d-09fe304a6afc"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/checkcompanyemailidexistsornot" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="checkcompanyemailidexistsornot" id="47d0cc25-8f28-4375-a024-9dfbc0ff521e" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://digisurveyapi.clidiem.com</con:endpoint>
+            <con:request>{
+	"EmailId": "lavanya14.mtech@gmail.com"
+}</con:request>
+            <con:originalUri>http://digisurveyapi.clidiem.com/api/account/checkcompanyemailidexistsornot</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/><con:parameters/>
+            <con:parameterOrder/>
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="CompanyRegistration" id="9223799d-b99c-476a-8350-3da24aad6c31"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/companyregistration" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="CompanyRegistration" id="b4647610-1552-4e4e-8913-951dcdd058d5" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://digisurveyapi.clidiem.com</con:endpoint>
+            <con:request>{
+	"UserName": "lavanya",
+     "CompanyName": "corevance",
+     "EmailId": "lavanyad@outlook.com",
+     "ContactNumber": "6786095678",
+      "Password": "Kiruthi123@",
+      "FEIN": "678907678",
+      "Website": "http://corevance.com",
+      "IPAddress": "68.184.113.95",
+"Location": "Smyrna",
+"Browser": "Chrome",
+"Latitude": "33.8633",
+"Longitude": "-84.4984",
+"CountryName": "United States",
+"PackageId":" 0",
+"ReferralCode": "",
+"WebProjectId": "2"
+}</con:request>
+            <con:originalUri>http://digisurveyapi.clidiem.com/api/account/companyregistration</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/><con:parameters/>
+            <con:parameterOrder/>
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="resendcompanyverificationcode" id="23044460-b35c-48fe-b1fd-62a0a79da2f4"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/resendcompanyverificationcode" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="resendcompanyverificationcode" id="b4e51eb2-df58-4522-b9e1-a3d89b84e05a" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://digisurveyapi.clidiem.com</con:endpoint>
+            <con:request>{
+	
+	"EmailId": "lavanyad@outlook.com",
+     "WebProjectId": "2"
+}</con:request>
+            <con:originalUri>http://digisurveyapi.clidiem.com/api/account/api/Account/resendcompanyverificationcode</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/><con:parameters/>
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="verifycompanyverificationcode" id="9af4baae-c5c5-43f3-a9fc-5a75e5b62db9"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/verifycompanyverificationcode" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="verifycompanyverificationcode" id="b8dfc6df-686f-4e68-8b39-1475f9eaf4cf" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://digisurveyapi.clidiem.com</con:endpoint>
+            <con:request>{
+	"RegistrationId": "QYNN1YkGQMoKbqgsxK7UMQ==",
+"RandomKey": "CaonmjphRrKftdd0PLhj9ykdhJ%20ngQpDos%20WXsV9gQI=",
+"VerificationCode": "144032",
+"WebProjectId": "2"
+}</con:request>
+            <con:originalUri>http://digisurveyapi.clidiem.com/api/account/verifycompanyverificationcode</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/><con:parameters/>
+            <con:parameterOrder/>
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="updateuserpassword" id="03ca2e7e-0119-42b8-9a0a-2c04c1b02d3e"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/updateuserpassword" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="updateuserpassword" id="23660513-557a-4cb7-ab0d-4d5201b288ba" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Token}" xmlns="http://eviware.com/soapui/config"/></con:setting>
+            </con:settings>
+            <con:endpoint>${#Project#Endpoint}</con:endpoint>
+            <con:request>{
+	
+	"userloginid":"${#Project#EncryptedLoginID}",
+	"oldpassword":"Sidharth@123",
+	"newpassword":"Test@123"
+}
+</con:request>
+            <con:originalUri>http://digisurveyapi.clidiem.com/api/Account/updateuserpassword</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/><con:parameters/>
+            <con:parameterOrder/>
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="sendCompanyUserforgotpasswordverificationcode" id="09f8f793-7fb8-4c27-9929-e66c0599c8bd"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/sendCompanyUserforgotpasswordverificationcode" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="sendCompanyUserforgotpasswordverificationcode" id="7c580774-a07f-43d3-bce4-d131e634ee0a" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>${#Project#Endpoint}</con:endpoint>
+            <con:request>{
+	"EmailId":"lavanya@clidiem.com",
+	"IsNew": "true",
+	"WebProjectId":" 2"
+}
+</con:request>
+            <con:originalUri>http://digisurveyapi.clidiem.com/api/account/sendCompanyUserforgotpasswordverificationcode</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/><con:parameters/>
+            <con:parameterOrder/>
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="resendcompanyforgotpasswordverificationcode" id="2176bee3-d96b-40cb-ba87-8d65098f193d"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/resendcompanyforgotpasswordverificationcode" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="resendcompanyforgotpasswordverificationcode" id="3778b437-e7f3-4f06-a829-50740b9747ea" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://digisurveyapi.clidiem.com</con:endpoint>
+            <con:request>{
+	"EmailId":"lavanya@clidiem.com",
+	"WebProjectId":"2"
+}
+</con:request>
+            <con:originalUri>http://digisurveyapi.clidiem.com/api/account/resendcompanyforgotpasswordverificationcode</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/><con:parameters/>
+            <con:parameterOrder/>
+          </con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="companyuserresetforgetpassword" id="5192d0fc-f6b3-464d-b0f5-2c452f83c054"><con:settings/><con:config service="http://digisurveyapi.clidiem.com" resourcePath="/api/account/companyuserresetforgetpassword" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="companyuserresetforgetpassword" id="2667360e-7556-472c-8fdb-88909cd40d26" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://digisurveyapi.clidiem.com</con:endpoint>
+            <con:request>{
+	"RandomKey":"L0Athks-AxHR1lTB3FHD7TxIQQtzL01C7rPMg9HRz3A=",
+	"Password":"Test123@",
+	"VerificationCode":"239001"
+}
+</con:request>
+            <con:originalUri>http://digisurveyapi.clidiem.com/api/account/companyuserresetforgetpassword</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/><con:parameters/>
+            <con:parameterOrder/>
+          </con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>Endpoint</con:name><con:value>http://digisurveyapi.clidiem.com</con:value></con:property><con:property><con:name>Token</con:name><con:value>Bearer iRw8oL0ybBXcJ0P4YjBTiIONlWQnXenBj8QGuJyRjnxe_2gX8RRF8REvNRZHVTWEAdQ4RN5iGDCAVNpFgNHahRT71PAlOTLsdzhvm-u-qgBcVgxtzys8g3hmUDxdQn2Lo96uCojNsr_ORi6UE1ODKPjcEYUaWtv2BzReJn-uEXTPROWpT_qpeBYjbgMYF0j_dv_I8Rap51MPt44vnrf08xctjB-KACRIUALabhOlUA3H4fScKQ2UKnCJgh6sCCQ8X6WBkTBsU4ICZOB8DcyqLuT3O81xai6b22NDXc7jG2exGGHX69l2okwUazYekxuBHp8TTk5GPzswNyOGYcxvUkfvOEqYFsOXV8_pwzJNxmiSEWXmeeelfm-AXhs9THqdFgVGT6tWPR3wU7dT1y9On_Eu-Qc4wGhvcZlI71iNS5E57pKy2eHOS2GB933yyo_aQZh7Y0VUTMk3ubYOczvMAQOu8PAIjE5Ta0_NiF3WQFlQwx9bADIfRZUzbVLRdolk7ORJYmzZgEH8qj3ocNBp-y8Y9uwrazHOd1wT9DGrtfzou4KeAYVGdz90ZjmDGAGv3JouP6sipFQHtn7FOXizxhrsS7qKWklKpTzc11JdWxNGbl0-fauKRwWxG7f9FpM-SNKu_b_ssJzst29qfKYIlM0bH_73mCYJ3USryhnUxFLoJx6ajcu89wzZxyjLrS59xKPtQB-qjXWj7budIl4aqsBMwrN4Wt1iSOY14dnB8DYw8kDtr8gOcsSAYLq5xqqU</con:value></con:property><con:property><con:name>EncryptedUserId</con:name><con:value>0+T2iLXE75v1gHMcLJeA0g==</con:value></con:property><con:property><con:name>EncryptedLoginID</con:name><con:value>Fa4SDTmM//9wP2D/fO/0kQ==</con:value></con:property><con:property><con:name>CompanyId</con:name><con:value>8</con:value></con:property><con:property><con:name>UserId</con:name><con:value>8</con:value></con:property><con:property><con:name>EncryptedCompanyId</con:name><con:value>0+T2iLXE75v1gHMcLJeA0g==</con:value></con:property></con:properties>
   <con:afterLoadScript>import org.apache.commons.lang.RandomStringUtils
 import com.eviware.soapui.support.types.StringToStringMap
 import groovy.json.JsonSlurper
